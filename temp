@@ -1,0 +1,20 @@
+//our pug demo endpoint
+app.get('/', (req, res)=> {
+    res.status(200).render('demo', { title: 'Hey', message: 'Hello there! and telling how to use pug' })
+  });
+
+app.get("/",(req,res)=>{
+   res.status(200).send("This is my first home page with express app with Nandini ");
+});
+
+app.get("/about",(req,res)=>{
+    res.send("This is my first about page with express app with Nandini ");
+ });
+
+ app.post("/about",(req,res)=>{
+    res.send("This is a post request on my first about page with express app with Nandini ");
+ });
+
+
+ ap .js k andr aega y sb
+ 

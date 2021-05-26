@@ -1,0 +1,17 @@
+{
+  "name": "nandini",
+  "version": "1.0.0",
+  "description": "This is a package wecreated while studying and exploring node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nandini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pug": "^3.0.2"
+  }
+}
